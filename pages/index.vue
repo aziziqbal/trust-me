@@ -79,7 +79,9 @@ Selain itu, kamu akan mendapatkan kepercayaan lebih dari lawan bicaramu. Menemuk
       </div>
       <img src="~/assets/assprom.png" >
     </div>
-    <img src="~/assets/sit.png" style="width:100%" >
+    <img src="~/assets/web-01.svg" style="width:100%" >
+    <img src="~/assets/web-02.svg" style="width:100%" >
+    <img src="~/assets/web-03.svg" style="width:100%" >
   </div>
 </template>
 
