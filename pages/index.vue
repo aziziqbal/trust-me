@@ -42,7 +42,7 @@
             WATCH THE TRAILER
           </div>
           <div class="box-youtube">
-            <video autoplay controls>
+            <video autoplay controls style="height:180px">
               <source src="~/assets/video.mp4" type="video/mp4">
             </video>
           </div>
