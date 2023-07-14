@@ -33,13 +33,18 @@
           comprehend what they were talking about?
           You have to answer quickly!
           </div>
+          <div class="play flex items-center justify-center cursor-pointer" @click="opengame()">
+            Play Game
+          </div>
         </div>
         <div class="right-side flex items-center flex-col">
           <div class="title-youtube">
             WATCH THE TRAILER
           </div>
           <div class="box-youtube">
-
+            <video autoplay controls>
+              <source src="~/assets/video.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
       </div>
@@ -85,7 +90,11 @@ Selain itu, kamu akan mendapatkan kepercayaan lebih dari lawan bicaramu. Menemuk
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+function opengame() {
+  window.open('https://drive.google.com/file/d/1nYrDbpJS7Z37pJRhHPUYFDEjuX_BmeVz/view?usp=drive_link', '_blank', 'noreferrer');
+}
+</script>
 
 <style lang="scss" scoped>
 
@@ -153,6 +162,17 @@ Selain itu, kamu akan mendapatkan kepercayaan lebih dari lawan bicaramu. Menemuk
           color:white;
           font-size: 35px;
           margin-bottom:10px;
+        }
+        .play {
+          font-family: 'Djadoel';
+          color:white;
+          font-size: 30px;
+          margin-bottom:10px;
+          background: brown;
+          width:200px;
+          margin-top:10px;
+          text-align:center;
+          border-radius: 20px;
         }
         .title-2 {
           font-family: 'Aspekta';
