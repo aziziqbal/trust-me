@@ -92,7 +92,7 @@ Selain itu, kamu akan mendapatkan kepercayaan lebih dari lawan bicaramu. Menemuk
 
 <script lang="ts" setup>
 function opengame() {
-  window.open('https://drive.google.com/file/d/1nYrDbpJS7Z37pJRhHPUYFDEjuX_BmeVz/view?usp=drive_link', '_blank', 'noreferrer');
+  window.open('https://unity-dev.primeskills.id/gamejam-2023/team3-v2/', '_blank', 'noreferrer');
 }
 </script>
 
