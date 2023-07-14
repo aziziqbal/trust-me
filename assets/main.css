@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Aspekta";
+  src: local("Aspekta"),
+    url(~assets/aspekta.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Djadoel";
+    src: local("Djadoel"),
+      url(~assets/djadoel.ttf) format("truetype");
+  }
